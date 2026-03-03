@@ -76,4 +76,4 @@ dakkie-workwear-website-docs/
 - **Homepage:** Displays featured products, company info, and navigation.
 - **Product pages:** Detailed product images, description, and pricing.
 - **Contact page:** Form for inquiries
-- **Sitemap included in /docs/sitemap.md
+- **Sitemap included in** /docs/sitemap.md
