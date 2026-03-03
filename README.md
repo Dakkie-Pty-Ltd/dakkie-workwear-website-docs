@@ -12,3 +12,15 @@
 9. [Deployment & Hosting](#deployment--hosting)
 10. [Versioning & Releases](#versioning--releases)
 11. [Author & Contact](#author--contact)
+
+---
+
+## Project Overview
+The **Dakkie Workwear website** is a professional e-commerce and informational platform for the Dakkie Workwear brand. It is designed to showcase products, provide company information, and allow customers to browse and purchase workwear items.
+
+---
+
+## Objectives
+- Build a **responsive and scalable website** for Dakkie Workwear.
+- Maintain **clean and modular code** for easy future updates.
+- Implement **user-friendly navigation** amd e-commerce features.
