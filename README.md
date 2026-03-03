@@ -54,5 +54,16 @@ The **Dakkie Workwear website** is a professional e-commerce and informational p
 
 This repository follows a clear and organized structure to ensure maintainability, Scalabilty, and ease of collaboration. Each directory has a defined purpose to help developers quickly understand where to find or add content.
 
-dakkie-workwear-website-docs/ |--- README.md
-# Primary documentation entry point
+dakkie-workwear-website-docs/
+├── README.md # Primary documentation entry point
+├── LICENSE # Project license (CC BY-NC 4.0)
+├── /docs # Core project documentation
+│ ├── project-charter.md # Project vision, objectives, and scope
+│ ├── requirements.md # Functional and non-functional requirements
+│ ├── sitemap.md # Website structure and navigation flow
+│ ├── design-guidelines.md # Branding, UI/UX, and visual standards
+│ └── deployment.md # Deployment process and environment details
+├── /assets # Visual and supporting assets
+│ ├── logos # Brand logos and variations
+│ ├── wireframes # UI wireframes and mockups
+│ └── images # Website and documentation images
