@@ -118,7 +118,18 @@ Documentation and website structure are actively maintained.
 
 ## License
 
-This documentation is licensed under the **MIT License**, unless otherwise specified.
+This documentation is licensed under the  
+**Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+### You may:
+- Share and adapt the documentation
+- Use it for educational or internal reference purposes
+
+### You may not:
+- Use this documentation for commercial purposes
+- Reproduce or redistribute it as part of another commercial product
+
+Attribution to **Dakkie (Pty) Ltd** is required.
 
 ---
 
