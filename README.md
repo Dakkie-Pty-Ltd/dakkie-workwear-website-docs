@@ -4,14 +4,15 @@
 1. [project Overview](#project-overview)
 2. [Objectives](#objectives)
 3. [Project Scope](#project-scope)
-4. [Technologies & Tools](#technologies--tools)
-5. [Repository Structure](#repository-structure)
-6. [Setup & Installation](#setup--installation)
-7. [Development Workflow](#development-workflow)
-8. [Coding Standards](#coding-standards)
-9. [Deployment & Hosting](#deployment--hosting)
-10. [Versioning & Releases](#versioning--releases)
-11. [Author & Contact](#author--contact)
+4. [Target Audience](#target-audience)
+5. [Technologies & Tools](#technologies--tools)
+6. [Repository Structure](#repository-structure)
+7. [Setup & Installation](#setup--installation)
+8. [Development Workflow](#development-workflow)
+9. [Coding Standards](#coding-standards)
+10. [Deployment & Hosting](#deployment--hosting)
+11. [Versioning & Releases](#versioning--releases)
+12. [Author & Contact](#author--contact)
 
 ---
 
@@ -30,9 +31,11 @@ The **Dakkie Workwear website** is a professional e-commerce and informational p
 
 ## Project Scope
 **In Scope:**
-- Frontend: Product pages, homepages, contact forms
-- Backend: WordPress CMS, MySQL database
+- Design and development of website pages
+- Implementation of responsive layout (desktop, tablet, mobile)
+- Integration of company branding (logo, color, fonts)
 - Integration with payment and shipping solutions
+- Documentation for deployment, setup, and maintenance
 
 **Out of Scope**
 - Mobile application
@@ -40,13 +43,21 @@ The **Dakkie Workwear website** is a professional e-commerce and informational p
 
 ---
 
+## Target Audience
+
+- Mechanics, industrial workers, and construction professionals
+- Retailers and distributors of workwear
+- Online customers looking for durable workwear
+
+---
+
 ## Technologies & Tools
-- **Platform:** WordPress
 - **Frontend:** HTML5, CSS3, JavaScript, jQuery
-- **Backend:** PHP, MySQL
-- **Version Control:** GitHub
+- **Backend:** PHP (WordPress CMS), MySQL
+- **Version Control:** Git, GitHub
+- **Design Tools:** Figma (for wireframes), Photoshop / Illustrator (for assets)
 - **Development Tools:** VS Code, LocalWP, Git CLI
-- **Design Tools:** Figma (for wireframes), Photoshop/Illustrator (for assets)
+- **Deployment:** GoDaddy web hosting
 
 ---
 
@@ -77,3 +88,37 @@ dakkie-workwear-website-docs/
 - **Product pages:** Detailed product images, description, and pricing.
 - **Contact page:** Form for inquiries
 - **Sitemap included in** /docs/sitemap.md
+
+---
+
+## UI/UX Guidelines
+
+- Brand colours: Dark Earth (#5C4033), Black (#000000), White (#FFFFFF)
+- Fonts: Montserrat (headings), Red Hat Display (body)
+- Logo: Small placement on product pages, full placement in header
+
+---
+
+## Implementation
+
+- WordPress installed locally via LocalWP.
+- Custom theme created following design guidelines.
+- Product catalog and pages added according to requirements.
+- Responsive testing done for desktop, tablet, and mobile.
+- GitHub repository used for version control with *main* and *dev* branches.
+
+## Testing & Quality Assurance
+
+- Cross-browser testing: Chrome, Firefox, Edge
+- Responsive testing on multiple screen sizes
+- Usability testing: Ensured navigation is intuitive
+- Functionality testing: Contact forms, links, payments, and buttons working
+
+---
+
+## Deployment & Hosting
+
+- Hosting environment: Godaddy Basic Plan Hosting Service
+- Deployment steps documented in /docs/deployment.md
+- Backup strategy: Weekly backups to cloud storage
+- Domain: www.dakkie.co.za
