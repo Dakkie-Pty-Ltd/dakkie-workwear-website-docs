@@ -68,3 +68,63 @@ The objectives of this project are to:
 ## Repository Structure
 
 The repository is organized to ensure clarity, maintainability, and scalability.
+
+---
+
+## Documentation Guide
+
+All detailed documentation is located in the `/docs` directory:
+
+- **Project Overview:** Business goals and direction  
+- **Requirements:** Functional and non-functional requirements  
+- **Sitemap:** Website structure and navigation  
+- **Design Guidelines:** UI/UX and brand consistency  
+- **Deployment:** Hosting and release process  
+
+---
+
+## UI / UX Design Principles
+
+The Dakkie website follows a **clean, modern, and professional** design language aligned with a premium workwear brand.
+
+- **Background:** White  
+- **Primary Text:** Black  
+- **Accent Color:** Dark Earth tones  
+- **Typography:** Modern sans-serif fonts  
+- **Approach:** Mobile-first, accessible, performance-focused  
+
+Designs and wireframes are maintained in **Figma**.
+
+---
+
+## Development Workflow
+
+1. Requirements definition  
+2. Sitemap and structure planning  
+3. UI/UX design and review  
+4. WordPress theme and layout setup  
+5. Content integration  
+6. Testing and optimization  
+7. Deployment and monitoring  
+
+---
+
+## Project Status
+
+🟢 **Active Development**  
+Documentation and website structure are actively maintained.
+
+---
+
+## License
+
+This documentation is licensed under the **MIT License**, unless otherwise specified.
+
+---
+
+## Ownership & Maintenance
+
+**Company:** Dakkie (Pty) Ltd  
+**Maintained by:** Internal Development Team / Appointed Developers  
+
+---
