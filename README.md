@@ -17,7 +17,14 @@
 ---
 
 ## Project Overview
-The **Dakkie Workwear website** is a professional e-commerce and informational platform for the Dakkie Workwear brand. It is designed to showcase products, provide company information, and allow customers to browse and purchase workwear items.
+
+**Project Name:** Dakkie Workwear Website Development
+**Project Type:** Business Website
+**Platform:** WordPress
+**Project Focus:** Corporate & E-commerce Workwear Website
+**Repository Purpose:** Technical and project documentation for developers and stakeholders
+
+This project documents the design, development, and deployment of the official Dakkie Workwear website. The website is intended to present the brand professionally, showcase workwear products, and provide a scalable foundation for future e-commerce functionality.
 
 ---
 
@@ -119,6 +126,6 @@ dakkie-workwear-website-docs/
 ## Deployment & Hosting
 
 - Hosting environment: Godaddy Basic Plan Hosting Service
-- Deployment steps documented in /docs/deployment.md
+- Deployment steps documented in */docs/deployment.md*
 - Backup strategy: Weekly backups to cloud storage
 - Domain: www.dakkie.co.za
