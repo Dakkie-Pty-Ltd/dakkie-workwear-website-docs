@@ -1,97 +1,201 @@
-# Requirements Definition
+# Requirements Specification
 
-## Dakkie (Pty) Ltd Website
+## Dakkie Workwear Website
 
-## 1. Purpose of This Document
+### 1.1 Purpose of This Document
 
-This document defines the **functional and non-functional requirements** for the official Dakkie (Pty) Ltd website. It serves as a reference for developers, designers, and stakeholders to ensure the website meets business objectives, usability standards, and technical expectations.
+This document defines the **functional and non-functional requirements** for the official website of Dakkie Workwear. It serves as a reference for developers, designers, and stakeholders to ensure the website meets business objectives, usability standards, and technical expectations.
 
----
+### 1.2 Scope
 
-## 2. Business Requirements
+The website will function as an **e-commerce platform** that allows users to:
 
-- Establish a professional online presence for **Dakkie (Pty) Ltd**.
-- Clearly present Dakkie Workwear products and categories.
-- Communicate brand values, credibility, and professionalism.
-- Provide easy contact and enquiry mechanisms
-- Allow future expansion into e-commerce functionality
-- Ensure the website is easy to maintain and update internally
+- Browse workwear products
+- Create user accounts
+- Add products to a shopping cart
+- Complete secure online purchase
+- Manage personal orders
+- Allow administrators to manage products and orders
 
----
+The system will be built using **WordPress and WooCommerce** technologies.
 
-## 3. Functional Requirements
+### 1.3 Definitions
 
-## 3.1 Website Pages
-
-The website **must include** the following pages:
-
-- Home
-- Products (category-based listing)
-- Product Detail pages
-- About Us
-- Blog / News
-- Contact
-- FAQ
-- Legal pages (Privacy Policy, Terms & Conditions, Cookies policy)
+| Term | Description |
+|------|-------------|
+| User | A visitor or registred customer using the website |
+| Admin | The administrator managing the website |
+| Product | Any workwear item sold by Dakkie Workwear |
+| Cart | Temporary storage of products before checkout |
+| Checkout | The process of completing a purchase |
 
 ---
 
-## 3.2 Navigation & Structure
+## 2. Functional Requirements
 
-- A clear and consistent navigation menu must be available on all pages.
-- Users must be able to access any main page within two clicks.
-- Breadcrumb navigation must be available on product pages
-- Footer navigation must include legal and contact links.
+### 2.1 User Registration
 
----
+The system must allow users to create a personal account.
 
-## 3.3 Product Presentation
+*Features include:*
 
-- Products must be grouped by category.
-- Each product must display:
-  - Name
-  - Description
-  - Images
-  - Specifications
-- Product pages must support future "Add to Cart" functionality.
+- Users can register using email and password
+- Users must confirm account details
+- Users can log in to access their account
+- Users can reset forgotten passwords
 
----
+### 2.2 User Login and Authentication
 
-## 3.4 Content Management
+The system must allow registered users to log into their accounts.
 
-- The website must be built on **WordPress**.
-- Administrators must be able to:
-  - Add, edit, and delete pages.
-  - Manage products and categories
-  - Upload and manage image
-  - Publish blog posts
-- No coding knowledge should be required for content updates.
+*Features include:*
 
----
+- Secure login form
+- Password authentication
+- Session management
+- Logout functionality
 
-## 3.5 Contact & Communication
+### 2.3 User Account Management
 
-- A contact form must be available.
-- Contact information must include:
-  - Email address
-  - Phone number
-  - Physical location (if applicable)
-- Form submissions must be delivered via email.
+Users must be able to manage their accounts.
+
+*Features include:*
+
+- Update personal details
+- View order history
+- Manage shipping addresses
+- Change password
 
 ---
 
-## 4. Non-Functional Requirements
+### 2.4 Product Catalogue
 
-## 4.1 Performance
+The website must display all available products from Dakkie Workwear.
+
+Each product must include:
+
+- Product name
+- Product image
+- Product description
+- Price
+- Available sizes
+- Available colours
+- Stock availability
+
+---
+
+### 2.5 Product Categories
+
+Products must be organized into categories such as:
+
+- Jackets
+- Work Pants
+- Shirts
+- T-Shirts
+- PPE
+- Accessories
+
+---
+
+### 2.6 Product Search
+
+Users must be able to search for products.
+
+*Features include:*
+
+- Search bar
+- Keyword search
+- Category filtering
+
+---
+
+### 2.7 Shopping Cart
+
+Users must be able to add products to a cart before purchasing.
+
+*Cart features include:*
+
+- Add products to cart
+- Remove products from cart
+- Update product quantity
+- View total price
+- View cart summary
+
+### 2.8 Checkout System
+
+The website must allow users to complete purchases through checkout.
+
+Checkout process includes:
+
+1. Shipping information
+2. Billing information
+3. Order review
+4. Payment processing
+
+---
+
+### 2.9 Payment Processing
+
+The system must support secure payment methods such as:
+
+- Credit/Debit cards
+- EFT payments
+- Secure payment gateway integration
+
+---
+
+### 2.10 Order Management
+
+Customers must be able to track their orders.
+
+*Features include:*
+
+- Order confirmation page
+- Email confirmation
+- Order history
+- Order tracking
+
+---
+
+### 2.11 Admin Product Management
+
+Administrators must be able to manage products on the website.
+
+Admin capabilities include:
+
+- Add new products
+- Edit products details
+- Delete products
+- Upload product images
+- Manage product inventory
+
+---
+
+### Admin Order Management
+
+Administrators must be able to manage customer orders.
+
+*Features include:*
+
+- View orders
+- Update order status
+- Process orders
+- Manage shipping
+
+
+---
+
+## 3. Non-Functional Requirements
+
+### 3.1 Performance
 
 - Pages must load within **3 seconds** on standard broadband connections.
 - Images must be optimized for web performance
-- Caching mechanisms
--  should be implemented
+- Caching mechanisms should be implemented.
 
 ---
 
-## 4.2 Usability & UX
+### 3.2 Usability & UX
 
 - The website must follow **mobile-first design**.
 - The interface must be intuitive and accessible.
@@ -100,7 +204,7 @@ The website **must include** the following pages:
 
 ---
 
-## 4.3 Compatibility
+### 3.3 Compatibility
 
 - The website must function correctly on:
   - Chrome
@@ -114,7 +218,7 @@ The website **must include** the following pages:
 
 ---
 
-## 4.4 Security
+### 3.3 Security
 
 - HTTPS must be enforced
 - WordPress core, themes and plugins must be kept up to date
