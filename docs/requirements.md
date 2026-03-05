@@ -10,7 +10,7 @@ This document defines the **functional and non-functional requirements** for the
 
 ## 2. Business Requirements
 
-- Establish a professional online presence for **Dakkie (Pty) Ltd.
+- Establish a professional online presence for **Dakkie (Pty) Ltd**.
 - Clearly present Dakkie Workwear products and categories.
 - Communicate brand values, credibility, and professionalism.
 - Provide easy contact and enquiry mechanisms
