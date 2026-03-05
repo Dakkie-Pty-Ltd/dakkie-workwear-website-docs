@@ -66,8 +66,6 @@ Users must be able to manage their accounts.
 - Manage shipping addresses
 - Change password
 
----
-
 ### 2.4 Product Catalogue
 
 The website must display all available products from Dakkie Workwear.
@@ -82,8 +80,6 @@ Each product must include:
 - Available colours
 - Stock availability
 
----
-
 ### 2.5 Product Categories
 
 Products must be organized into categories such as:
@@ -95,8 +91,6 @@ Products must be organized into categories such as:
 - PPE
 - Accessories
 
----
-
 ### 2.6 Product Search
 
 Users must be able to search for products.
@@ -106,8 +100,6 @@ Users must be able to search for products.
 - Search bar
 - Keyword search
 - Category filtering
-
----
 
 ### 2.7 Shopping Cart
 
@@ -132,8 +124,6 @@ Checkout process includes:
 3. Order review
 4. Payment processing
 
----
-
 ### 2.9 Payment Processing
 
 The system must support secure payment methods such as:
@@ -141,8 +131,6 @@ The system must support secure payment methods such as:
 - Credit/Debit cards
 - EFT payments
 - Secure payment gateway integration
-
----
 
 ### 2.10 Order Management
 
@@ -154,8 +142,6 @@ Customers must be able to track their orders.
 - Email confirmation
 - Order history
 - Order tracking
-
----
 
 ### 2.11 Admin Product Management
 
@@ -169,9 +155,7 @@ Admin capabilities include:
 - Upload product images
 - Manage product inventory
 
----
-
-### Admin Order Management
+### 2.12 Admin Order Management
 
 Administrators must be able to manage customer orders.
 
@@ -181,7 +165,6 @@ Administrators must be able to manage customer orders.
 - Update order status
 - Process orders
 - Manage shipping
-
 
 ---
 
@@ -193,16 +176,12 @@ Administrators must be able to manage customer orders.
 - Images must be optimized for web performance
 - Caching mechanisms should be implemented.
 
----
-
 ### 3.2 Usability & UX
 
 - The website must follow **mobile-first design**.
 - The interface must be intuitive and accessible.
 - Text must be readable on all devices
 - Buttons and links must be clearly distinguishable.
-
----
 
 ### 3.3 Compatibility
 
@@ -215,8 +194,6 @@ Administrators must be able to manage customer orders.
   - Desktop
   - Tablet
   - Mobile devices
-
----
 
 ### 3.3 Security
 
