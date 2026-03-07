@@ -154,6 +154,7 @@ Regular backups are necessary to prevent data loss.
 *Recommended backup schedule:*
 
 | **Backup Type** | **Frequency** |
+|-----------------|---------------|
 | Database Backup | Daily |
 | Website Files | Weekly |
 | Full System Backup | Monthly |
