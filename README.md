@@ -110,13 +110,10 @@ The repository includes several documentation files describing the system design
 
 *Repository structure:*
 
-│
 
 ├── README.md
 
 ├── LICENSE
-
-│
 
 └── docs/
 
